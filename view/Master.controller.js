@@ -10,6 +10,7 @@ sap.ui.controller("sap.ui.demo.myFiori.view.Master", {
 	
 	handleSearch : function (evt) {
 		//Create Model Filter
+		//Prueba GIT
 		var filters = [];
 		var query = evt.getParameter("query");
 		if(query && query.length > 0){
